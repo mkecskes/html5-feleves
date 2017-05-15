@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    font: normal 12px Helvetica, Arial, sans-serif;
+}
+
+#header{
+    width: 100%;
+    margin: 0;
+    padding: 0 8px;
+    position: fixed;
+    background: #0a0;
+    line-height: 40px;
+    box-shadow: 0 1px 3px #000;
+}
+
+#header li {
+    display: inline-block;
+    text-align: center;
+}
+
+#header a {
+    display: inline-block;
+    width: 100px;
+    border-radius: 5px;
+    color: #fff;
+    text-decoration: none;
+}
+
+#header a:hover {
+    background: rgba(255, 255, 255, .3);
+}
+
+#content {
+    padding: 40px 8px 0 8px;
+}
