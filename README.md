@@ -2,6 +2,8 @@
 
 ## Megvalósítás
 
+A megvalósítás AJAX alapú, valamint nem használ semmilyen külső library-t.
+
 A baseurl a js/secrets.js fájlban definiálandó a következőképpen:
 
 ```javascript
